@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>  
+    <head>  
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-widht, initial scale=1">
+        <title>JLR.club</title>
+        <link rel="stylesheet" href="C:\Users\Javier\Desktop\Fundamentos\Code(CSS)\style.css" />
+    </head>
+
+    <body>
+      <div class="header">
+        <div class="header_container">
+          <div style="margin-right: 100px;">
+            <nav>
+              <menu>
+                  <menuitem id="demo1">
+                      <a href="C:\Users\Javier\Desktop\Fundamentos\index.html">Menu</a>
+              </menu>
+          </nav>
+        </div>
+          <div class="header_image" style="margin-left: 450px ">
+            <img src=C:\Users\Javier\Desktop\Fundamentos\Images\JLR.png width="90px">
+          </div> 
+          <div class="contacts">
+            <div>
+              <a class="botoncontact" href="net.html">Net</a>
+            </div>
+            <div>
+              <a class="botoncontact" href="contact.html">Contact</a>
+            </div>
+            <div>
+              <a class="botoncontact" href="degree.html">Degree</a>
+            </div>
+            <div>
+              <a class="botoncontact" href="about.html">About me</a>
+            </div>
+            <div>
+                <a class="botoncontact" href="topic.html">Topic</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    <div class="contacto">
+			<form>
+				<fieldset>
+					<legend>Contact Me!</legend>
+
+					<label for="fname">First name:</label><br>
+					<input type="text" id="fname" name="fname" placeholder="Enter your first name here"><br>
+
+					<label for="lname">Last name:</label><br>
+					<input type="text" id="lname" name="lname" placeholder="Enter your last name here"><br><br>
+
+					<label for="email">Email:</label><br>
+					<input type="text" id="email" name="email" placeholder="youremail@example.com"><br><br>
+
+					<label for="role">Role</label>
+					<select id="role" name="role">
+						<option value="professor">Professor</option>
+						<option value="student">Student</option>
+						<option value="other">Other</option>
+					</select><br><br>
+
+					<label for="message">Message</label><br>
+					<textarea id="message" name="message" placeholder="Write your message here.."></textarea>
+				</fieldset>
+			</form>
+			<div>
+				<button id="submit" onclick="alert('Message submited')">Submit</button>
+			</div>
+		</div>
+</html>
